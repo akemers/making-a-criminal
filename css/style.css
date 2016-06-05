@@ -1,0 +1,172 @@
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+#slides_container h1, 
+#slides_container h4, 
+#slides_container h5, 
+#slides_container h6 {
+    font-family: 'Ultra', serif;
+    line-height: 1.3;
+    color: #333;
+    font-size: 30px;
+}
+
+#slides_container h2 {
+   font-family: 'Work Sans', sans-serif;
+    color: #333;
+    font-size: 11px;
+    line-height: 15px;
+    margin: 0 0 19px 0;
+}
+
+#slides_container h3 {
+   font-family: 'Work Sans', sans-serif;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 19px 0;
+}
+
+#slides_container h4 {
+    font-family: 'Work Sans', sans-serif;
+    color: #333;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 0 19px 0;
+}
+
+#slides_container p, 
+#slides_container span,
+#slides_container ul {
+    font-family: 'Work Sans', sans-serif;
+    color: #333;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 0 19px 0;
+}
+
+#slides_container a {
+    color: #C56331;
+    text-decoration: none;
+}
+
+#slides_container {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 58px;
+    width: 380px;
+    padding: 40px;
+    padding-right: 20px;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.7);
+    z-index: 10;
+}
+
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+
+#wrapper {
+	padding-bottom: 20px;
+}
+
+
+.full-width {
+position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center; 
+}
+.hide {
+display: none;
+}
+
+#chart-one {
+background-image:url('../pictures/nola-map.png');
+}
+
+#chart-two {
+background-image:url("../pictures/ATNO.jpg");
+}
+
+#chart-three {
+background:white;
+padding-top: 20px;
+margin-right: 20px;
+}
+
+#chart-four {
+background-image:url("../pictures/post-katrina.jpg");
+}
+
+#chart-five {
+background:white;
+padding-top: 20px;
+margin-right: 20px;
+}
+
+#chart-six{
+background:white;
+padding-top: 20px;
+margin-right: 20px;
+}
+
+#chart-seven{
+background:white;
+padding-top: 20px;
+margin-right: 20px;
+}
+
+#chart-eight {
+background-image:url("../pictures/st-tam-cell.jpg");
+}
+
+#chart-nine {
+background-image:url("../pictures/day-laborers.jpg");
+}
+
+
+iframe {
+	padding-bottom:45px;
+}
+
+.tableauPlaceholder {
+	float: right;
+	width: 998px;
+    height: 742px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
